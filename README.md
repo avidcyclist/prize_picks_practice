@@ -18,4 +18,12 @@ The `mock_user_picks.py` script generates mock user picks with the following ste
 5. **Calculate Payouts and Profits**: Calculate the payout, profit, and ROI for each bet.
 6. **Save to CSV**: Save the generated data to a CSV file for analysis.
 
-For more details, refer to the `mock_user_picks.py` script in this repository.
+For more details, refer to the `mock_user_picks.py` script in this repository. My mock_user_picks.csv went through me adding and editing columns to continue to dive deeper into the data outside the columns the mock data generated.
+
+## Directory Structure
+
+- `data/`: Contains the CSV data files.
+- `scripts/`: Contains Python scripts for data analysis.
+- `notebooks/`: Contains Jupyter notebooks for interactive analysis.
+- `mock_user_picks.py`: Script used to generate the mock data.
+
