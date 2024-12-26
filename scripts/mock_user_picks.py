@@ -5,6 +5,7 @@ import random
 users_df = pd.read_csv("mock_users.csv")
 players_df = pd.read_csv("mock_players.csv")
 
+
 # Parameters
 num_bets = 10000  # Total number of bets to generate
 
