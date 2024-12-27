@@ -2,7 +2,7 @@
 Testing my skills on a mock data set of betting users to perform statistical analysis to see where the company can improve
 
 
-I started this when I saw an open job for BI Finance Analyst. I started by trying to find public data but ended up asking for a mock data script to work on.
+I started this when I saw an open job for BI Finance Analyst. I started by trying to find public data but ended up creating a mock data script to produce users, bets, odds, etc.
 
 ## Data Generation
 
@@ -26,4 +26,7 @@ For more details, refer to the `mock_user_picks.py` script in this repository. M
 - `scripts/`: Contains Python scripts for data analysis.
 - `notebooks/`: Contains Jupyter notebooks for interactive analysis.
 - `mock_user_picks.py`: Script used to generate the mock data.
+- `mock_user_picks.csv`: Result of the script used to generate data
+- `user_bet_breakdown.csv`: Me playing with the results and creating new columns of information to use for analysis/visualization
+- 
 
