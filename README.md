@@ -38,3 +38,23 @@ The project is organized into the following folders:
 1. **Generate Mock Data**: Open the `new_notebook.ipynb` notebook and run all the cells to generate the mock data and save it to the `data/` folder.
    ```bash
    jupyter notebook notebooks/new_notebook.ipynb
+
+
+### Explanation:
+- **Overview**: Describes the purpose and goals of the project.
+- **Data Generation**: Outlines the steps taken to generate the mock data.
+- **Project Structure**: Describes the organization of the project, including the notebooks and data folders.
+- **How to Run the Project**: Provides instructions on how to run the notebook to generate data and perform analysis.
+- **Goals and Objectives**: Lists the primary objectives of the project.
+- **Conclusion**: Summarizes the project's contributions and insights.
+
+Feel free to customize this README further to better fit your project's specifics. If you have any further questions or need additional assistance, feel free to ask!
+### Explanation:
+- **Overview**: Describes the purpose and goals of the project.
+- **Data Generation**: Outlines the steps taken to generate the mock data.
+- **Project Structure**: Describes the organization of the project, including the notebooks and data folders.
+- **How to Run the Project**: Provides instructions on how to run the notebook to generate data and perform analysis.
+- **Goals and Objectives**: Lists the primary objectives of the project.
+- **Conclusion**: Summarizes the project's contributions and insights.
+
+Feel free to customize this README further to better fit your project's specifics. If you have any further questions or need additional assistance, feel free to ask!
