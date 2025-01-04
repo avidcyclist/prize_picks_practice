@@ -5,7 +5,7 @@ This project simulates a sports betting environment to analyze various betting s
 Data Generation
 The mock data is generated using a Python script that creates random user IDs, bet amounts, and betting outcomes. The script also calculates the implied probabilities based on American odds and simulates the outcomes of each bet. The following steps outline the data generation process:
 
-Generate Random Data: Create mock data for user IDs, number of bets, and bet amounts.
+'Generate Random Data': Create mock data for user IDs, number of bets, and bet amounts.
 Generate Random Odds: Generate random American odds for each entry.
 Convert American Odds to Implied Probabilities: Calculate the implied probabilities for each bet.
 Simulate Bet Outcomes: Simulate the outcomes of each bet based on the implied probabilities.
