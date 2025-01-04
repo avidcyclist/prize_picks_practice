@@ -6,7 +6,7 @@ This project simulates a sports betting environment to analyze various betting s
 
 ## Data Generation
 
-The mock data is generated using a Python script that creates random user IDs, bet amounts, and betting outcomes. The script also calculates the implied probabilities based on American odds and simulates the outcomes of each bet. The following steps outline the data generation process:
+The mock data is generated using a Jupyter Notebook that creates random user IDs, bet amounts, and betting outcomes. The notebook also calculates the implied probabilities based on American odds and simulates the outcomes of each bet. The following steps outline the data generation process:
 
 1. **Generate Random Data**: Create mock data for user IDs, number of bets, and bet amounts.
 2. **Generate Random Odds**: Generate random American odds for each entry.
@@ -22,19 +22,12 @@ The mock data is generated using a Python script that creates random user IDs, b
 
 The project is organized into the following folders:
 
-- **scripts/**: Contains Python scripts used for data generation and analysis.
-- **notebooks/**: Contains Jupyter notebooks for interactive data analysis and visualization.
+- **notebooks/**: Contains Jupyter notebooks for data generation, interactive data analysis, and visualization.
 - **data/**: Contains the generated mock data in CSV format.
-
-### scripts/
-
-- `generate_mock_data.py`: Script to generate mock betting data and calculate payouts, profits, and net profits.
-- `analyze_data.py`: Script to analyze the generated data and provide insights into betting strategies.
 
 ### notebooks/
 
-- `data_analysis.ipynb`: Jupyter notebook for interactive data analysis and visualization.
-- `strategy_evaluation.ipynb`: Jupyter notebook to evaluate the effectiveness of different betting strategies.
+- `new_notebook.ipynb`: Jupyter notebook for generating mock betting data, calculating payouts, profits, and net profits, and performing interactive data analysis.
 
 ### data/
 
@@ -42,6 +35,6 @@ The project is organized into the following folders:
 
 ## How to Run the Project
 
-1. **Generate Mock Data**: Run the `generate_mock_data.py` script to generate the mock data and save it to the `data/` folder.
+1. **Generate Mock Data**: Open the `new_notebook.ipynb` notebook and run all the cells to generate the mock data and save it to the `data/` folder.
    ```bash
-   python scripts/generate_mock_data.py
+   jupyter notebook notebooks/new_notebook.ipynb
