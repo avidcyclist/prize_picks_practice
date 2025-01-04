@@ -1,32 +1,22 @@
-# prize_picks_practice
-Testing my skills on a mock data set of betting users to perform statistical analysis to see where the company can improve
+Prize Picks Practice Project
+Overview
+This project simulates a sports betting environment to analyze various betting strategies and their outcomes. The goal is to generate mock data that mimics real-world betting scenarios, calculate payouts, and determine the net profit for the sportsbook. The project also aims to provide insights into the effectiveness of different betting strategies.
 
+Data Generation
+The mock data is generated using a Python script that creates random user IDs, bet amounts, and betting outcomes. The script also calculates the implied probabilities based on American odds and simulates the outcomes of each bet. The following steps outline the data generation process:
 
-I started this when I saw an open job for BI Finance Analyst. I started by trying to find public data but ended up creating a mock data script to produce users, bets, odds, etc.
+Generate Random Data: Create mock data for user IDs, number of bets, and bet amounts.
+Generate Random Odds: Generate random American odds for each entry.
+Convert American Odds to Implied Probabilities: Calculate the implied probabilities for each bet.
+Simulate Bet Outcomes: Simulate the outcomes of each bet based on the implied probabilities.
+Calculate Commission: Calculate the casino's commission as 10% of the bet amount.
+Calculate Effective Bet Amount: Subtract the commission from the total bet amount to get the effective bet amount.
+Calculate Payouts: Calculate the payouts based on the effective bet amount and the number of wins.
+Calculate Profit: Calculate the profit as the difference between the payout and the bet amount.
+Calculate Net Profit for the Sportsbook: Calculate the net profit for the sportsbook by subtracting the payouts and commission from the total bet amount.
+Project Structure
+The project is organized into the following folders:
 
-## Data Generation
-
-The mock data used in this project was generated using the `mock_user_picks.py` script. This script simulates user bets, including both single bets and parlays, and calculates the outcomes based on random selections and predefined probabilities.
-
-### How the Data Was Generated
-
-The `mock_user_picks.py` script generates mock user picks with the following steps:
-1. **Load Existing Data**: Load user and player data from CSV files.
-2. **Generate User Picks**: Simulate a specified number of bets, randomly selecting users and players for each bet.
-3. **Determine Bet Type**: Randomly choose between single bets and parlays, with a 70% chance of single bets and a 30% chance of parlays.
-4. **Calculate Outcomes**: Determine the outcome of each bet based on random selections and predefined probabilities.
-5. **Calculate Payouts and Profits**: Calculate the payout, profit, and ROI for each bet.
-6. **Save to CSV**: Save the generated data to a CSV file for analysis.
-
-For more details, refer to the `mock_user_picks.py` script in this repository. My mock_user_picks.csv went through me adding and editing columns to continue to dive deeper into the data outside the columns the mock data generated.
-
-## Directory Structure
-
-- `data/`: Contains the CSV data files.
-- `scripts/`: Contains Python scripts for data analysis.
-- `notebooks/`: Contains Jupyter notebooks for interactive analysis.
-- `mock_user_picks.py`: Script used to generate the mock data.
-- `mock_user_picks.csv`: Result of the script used to generate data
-- `user_bet_breakdown.csv`: Me playing with the results and creating new columns of information to use for analysis/visualization
-- 
-
+scripts/: Contains Python scripts used for data generation and analysis.
+notebooks/: Contains Jupyter notebooks for interactive data analysis and visualization.
+data/: Contains the generated mock data in CSV format.
